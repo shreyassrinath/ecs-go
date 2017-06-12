@@ -1,13 +1,14 @@
 package main
 
 import (
-	"log"
 	"../wireup"
+	"fmt"
+	"log"
 )
 
 func main() {
 	em := ecsinitialize.InitializeECS()
 	log.Println(em)
 	var input string
-	log.Scanln(&input)
+	fmt.Scanln(&input)
 }
