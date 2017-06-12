@@ -10,5 +10,5 @@ echo "export GOPATH=/home/vagrant/" >> /home/vagrant/.bashrc
 echo "export PATH=$PATH:$GOPATH/bin:/usr/local/go/bin" >> /home/vagrant/.bashrc 
 
 
-go get golang.org/x/tools/cmd/godoc
-go get github.com/golang/lint/golint
+# go get golang.org/x/tools/cmd/godoc
+# go get github.com/golang/lint/golint
