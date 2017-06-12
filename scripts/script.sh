@@ -6,8 +6,8 @@ sudo curl -O https://storage.googleapis.com/golang/go1.6.linux-amd64.tar.gz
 sudo tar -C /usr/local -xzf go1.6.linux-amd64.tar.gz
 #sudo mv go /usr/local
 
-export GOPATH=/home/vagrant/ECS-GO
-export PATH=$PATH:/home/vagrant/bin:/usr/local/go/bin 
+echo "export GOPATH=/home/vagrant/" >> ~/.profile
+echo "export PATH=$PATH:$GOPATH/bin:/usr/local/go/bin" >> ~/.profile  
 
 
 go get golang.org/x/tools/cmd/godoc

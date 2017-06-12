@@ -1,7 +1,7 @@
 package subsystems
 
 import (
-	"ecs"
+	"../ecs"
 	//"log"
 	"math/rand"
 )

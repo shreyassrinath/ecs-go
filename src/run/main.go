@@ -2,7 +2,7 @@ package main
 
 import (
 	"log"
-	"wireup"
+	"../wireup"
 )
 
 func main() {
