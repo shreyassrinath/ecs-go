@@ -2,6 +2,7 @@ package subsystems
 
 import (
 	"../ecs"
+	"fmt"
 	"log"
 )
 
@@ -27,7 +28,7 @@ func (r Render) update() {
 			}
 
 		}
-		log.Println("\n")
+		fmt.Println("\n")
 	}
 
 }
