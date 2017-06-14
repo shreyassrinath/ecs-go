@@ -22,7 +22,7 @@ The entity is a general purpose object. Usually, it only consists of a unique id
 ## Project details
 This project includes proof of concept ECS example project. The project sets up Go Dev environment using vagrant. 
 
-### Project folder details
+### ECS Example folder details
 ```
 EntityComponentSystem   
     | -- ecs
