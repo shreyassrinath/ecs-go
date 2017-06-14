@@ -1,7 +1,7 @@
 package subsystems
 
 import (
-	"../ecs"
+	"EntityComponentSystem/ecs"
 	"fmt"
 	"log"
 )

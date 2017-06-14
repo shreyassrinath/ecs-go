@@ -1,8 +1,8 @@
 package ecsinitialize
 
 import (
-	"../ecs"
-	"../subsystems"
+	"EntityComponentSystem/ecs"
+	"EntityComponentSystem/subsystems"
 )
 
 func InitializeECS() *ecs.EntityManager {
